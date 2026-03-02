@@ -12,8 +12,7 @@ namespace BLOC3.PA05.Tamagochi.Pet
         {
             Name = name;
             Emotion = emotion;
-            Stats = stats;
+            Stats = new Stats();
         }
-
     }
 }
