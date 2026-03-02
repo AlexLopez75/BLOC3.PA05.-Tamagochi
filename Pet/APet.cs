@@ -4,7 +4,7 @@ namespace BLOC3.PA05.Tamagochi.Pet
 {
     public abstract class APet
     {
-        protected abstract string Name { get; set; }
+        protected abstract string Name { get; init; }
         protected Emotion Emotion { get; set; }
         protected Stats Stats { get; }
 
@@ -14,5 +14,6 @@ namespace BLOC3.PA05.Tamagochi.Pet
             Emotion = emotion;
             Stats = stats;
         }
+
     }
 }
