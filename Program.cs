@@ -7,7 +7,8 @@ namespace BLOC3.PA05.Tamagochi
     {
         public static void Main()
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine();
+            Console.WriteLine("Hello world");
         }
     }
 }
