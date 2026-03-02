@@ -1,4 +1,5 @@
 ﻿using BLOC3.PA05.Tamagochi.Pet;
+using BLOC3.PA05.Tamagochi.Pet.Animal;
 using System;
 
 namespace BLOC3.PA05.Tamagochi
@@ -7,8 +8,7 @@ namespace BLOC3.PA05.Tamagochi
     {
         public static void Main()
         {
-            Console.WriteLine();
-            Console.WriteLine("Hello world");
+            Cat pablo = new Cat("Pablo", Emotion.Happy, new Stats());
         }
     }
 }
